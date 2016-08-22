@@ -1,0 +1,23 @@
+{
+  "name": "wallacewylie.github.io-master",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "Wallace Wylie",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "node": "0.0.0"
+  }
+}
