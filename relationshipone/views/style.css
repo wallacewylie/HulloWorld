@@ -1,0 +1,42 @@
+.logo {
+    padding-left: 75px;
+}
+
+.banner {
+    width: 100%;
+    padding: 0 75px 30px 75px;
+}
+
+.container {
+    padding:0;
+}
+
+.row {
+    display: table;
+}
+
+.col-xs-5 {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+
+.left, .right {
+    border: 3px solid black;
+}
+
+.centre {
+    margin: 30px auto auto auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .row {
+        width: 115%;
+        margin-left: -54px;
+    }
+}
